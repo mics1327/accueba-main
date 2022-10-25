@@ -10,7 +10,7 @@ const SubmitBtnEmp = props => {
     };
     
     return (
-        <Button onClick={navigateToEmpPage} className="button">Submit</Button>
+        <Button onClick={navigateToEmpPage} className="btn-submit-emp">Submit</Button>
     )
 }
 

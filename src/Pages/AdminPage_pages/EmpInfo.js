@@ -46,7 +46,7 @@ const ListItem = styled("li")`
 
 const options = ["Drivers", "Helpers", "Mechanics", "Staff"];
 
-export default function App() {
+export default function EmpInfo() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(null);
 
