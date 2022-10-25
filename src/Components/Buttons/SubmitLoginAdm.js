@@ -10,7 +10,7 @@ const SubmitBtnAdm = props => {
     };
     
     return (
-        <Button onClick={navigateAdmPage} className="button">Submit</Button>
+        <Button onClick={navigateAdmPage} className="btn-submit-emp">Submit</Button>
     )
 }
 
