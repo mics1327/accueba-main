@@ -11,16 +11,17 @@ export default function LoginBtn(){
     <div className="btn-toolbar">
         <div className="btn-grp">
             <button onClick={() => setShow(true)}>Admin Login</button>
-                <AdmModal title="Admin Login" onClose={()=> setShow(false)} show={show}>
-                    <ID />
-                    <Password />
-                </AdmModal>
+                
             
             <button onClick={() => setShow(true)}>Employee Login</button>
                 <EmpModal title="Login" onClose={()=> setShow(false)} show={show}>
                     <ID />
                     <Password />
                 </EmpModal>
+                <AdmModal title="Admin Login" onClose={()=> setShow(false)} show={show}>
+                    <ID />
+                    <Password />
+                </AdmModal>
             </div>
          </div>
     </>)

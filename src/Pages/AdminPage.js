@@ -4,6 +4,10 @@ import NavBarAdm from "../Components/NavBars/NavBarAdm";
 
 export function AdminPage(){
     return (<>
+    <div className="page-container">
+        <div className="content-wrap">
         <NavBarAdm />
+        <Routes></Routes>
+        </div></div>
     </>)
 }
