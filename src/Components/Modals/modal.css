@@ -25,6 +25,9 @@
 .modal-content{
     width: 500px;
     background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
     transform: translateY(-200px);
     transition: all 0.3s ease-in-out;
 }
